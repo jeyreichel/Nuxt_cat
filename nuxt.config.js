@@ -1,7 +1,13 @@
 // nuxt.config.js
 export default {
   buildDir: "dist",
-  target: "static",
+  target: "server",
+  build: {
+    // Customize the build configuration here
+  },
+  generate: {
+    fallback: true, // If you are using dynamic routes
+  },
   css: ["@/assets/css/tailwind.css"],
   buildModules: ["@nuxtjs/tailwindcss"],
   modules: ["@nuxtjs/composition-api/module"],
