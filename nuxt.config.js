@@ -22,5 +22,4 @@ export default {
       },
     ],
   },
-  debug: true,
 };
