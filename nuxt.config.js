@@ -1,5 +1,6 @@
 // nuxt.config.js
 export default {
+  target: "static",
   css: ["@/assets/css/tailwind.css"],
   buildModules: ["@nuxtjs/tailwindcss"],
   modules: ["@nuxtjs/composition-api/module"],
@@ -23,3 +24,20 @@ export default {
     ],
   },
 };
+
+// export default {
+//   target: 'static', // Can be 'static' or 'server'
+//   buildModules: [
+//     // Doc: https://go.nuxtjs.dev/typescript
+//     '@nuxt/typescript-build',
+//   ],
+//   modules: [
+//     // Doc: https://go.nuxtjs.dev/axios
+//     '@nuxtjs/axios',
+//   ],
+//   axios: {
+//     // See https://axios.nuxtjs.org/options
+//   },
+//   build: {
+//   }
+// }
