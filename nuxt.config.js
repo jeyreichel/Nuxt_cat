@@ -1,7 +1,7 @@
 // nuxt.config.js
 export default {
   buildDir: ".Nuxt",
-  target: "static",
+  target: "server",
   css: ["@/assets/css/tailwind.css"],
   buildModules: ["@nuxtjs/tailwindcss"],
   modules: ["@nuxtjs/composition-api/module"],
