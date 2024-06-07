@@ -6,5 +6,8 @@
       "src": "/(.*)",
       "dest": "/"
     }
-  ]
+  ],
+  "config": {
+        "serverFiles": ["api/**", "middleware/**"]
+      }
 }
