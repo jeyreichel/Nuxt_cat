@@ -1,7 +1,7 @@
 // nuxt.config.js
 export default {
   buildDir: "dist",
-  target: "server",
+  target: "static",
   build: {
     // Customize the build configuration here
   },
